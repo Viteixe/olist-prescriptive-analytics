@@ -27,15 +27,32 @@ Kaggle Dataset
 - Power BI
 - VS Code
 - WSL Ubuntu
+## Estrutura do Projeto
 
-## Estrutura
+```text
+src/
+├── ingestion/
+│   └── 01_data_inventory.py
 
-- `src/ingestion`: inventário dos dados
-- `src/transformations`: criação da camada Silver
-- `src/warehouse`: criação da camada Gold
-- `src/load`: carga no PostgreSQL
-- `src/quality`: validação de qualidade
-- `src/analytics`: KPIs, insights e recomendações
+├── transformations/
+│   └── 02_create_silver.py
+
+├── warehouse/
+│   ├── 03_create_gold.py
+│   └── 06_create_dim_order.py
+
+├── load/
+│   └── 04_load_postgres.py
+
+├── quality/
+│   └── 07_data_quality.py
+
+└── analytics/
+    ├── 05_sales_kpis.py
+    ├── 06_prescriptive_insights.py
+    ├── 08_executive_kpis.py
+    └── 09_business_insights.py
+```
 
 ## Principais resultados
 
