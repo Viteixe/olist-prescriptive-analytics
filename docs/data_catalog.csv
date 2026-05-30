@@ -1,0 +1,10 @@
+arquivo,linhas,colunas,memoria_mb
+olist_order_items_dataset.csv,112650,7,18.37
+product_category_name_translation.csv,71,2,0.0
+olist_order_reviews_dataset.csv,99224,7,17.84
+olist_customers_dataset.csv,99441,5,11.03
+olist_orders_dataset.csv,99441,8,21.95
+olist_sellers_dataset.csv,3095,4,0.22
+olist_products_dataset.csv,32951,9,3.73
+olist_geolocation_dataset.csv,1000163,5,50.12
+olist_order_payments_dataset.csv,103886,5,8.11
